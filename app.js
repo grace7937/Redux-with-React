@@ -7,6 +7,8 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Root</h1>
+        <AddNumberRoot></AddNumberRoot>
+        <DisplayNumberRoot></DisplayNumberRoot>
         <AddNumberRoot onClick={function(size){
           this.setState({number:this.state.number + size});
         }.bind(this)}></AddNumberRoot>
